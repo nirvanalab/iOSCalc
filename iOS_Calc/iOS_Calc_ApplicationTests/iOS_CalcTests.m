@@ -52,7 +52,7 @@
 /* The setUp method is called automatically for each test-case method (methods whose name starts with 'test').
  */
 - (void) setUp {
-   app_delegate         = [[UIApplication sharedApplication] delegate];
+   //app_delegate         = [[UIApplication sharedApplication] delegate];
    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Storyboard" bundle:nil];
    calc_view_controller = [storyboard instantiateViewControllerWithIdentifier:@"CalcViewController"];
    calc_view            = calc_view_controller.view;
